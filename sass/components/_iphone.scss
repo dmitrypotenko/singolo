@@ -1,0 +1,11 @@
+.iphone_vertical {
+  position: absolute;
+  left: $iphone-vertical-left;
+  top: $iphone-vertical-top;
+}
+
+.iphone_horizontal {
+  position: absolute;
+  right: $iphone-horizontal-right;
+  top: $iphone-horizontal-top;
+}
