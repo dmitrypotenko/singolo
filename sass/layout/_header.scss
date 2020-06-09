@@ -5,7 +5,6 @@
 
 .logo {
   text-transform: uppercase;
-  line-height: $font-header-line-height;
   @include header-font(2.5rem)
 }
 
