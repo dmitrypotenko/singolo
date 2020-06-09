@@ -2,12 +2,11 @@
 .our-services {
   background-color: $color-our-services;
   height: $our-services-height;
-  padding-top: 67px;
   box-sizing: border-box;
 }
 
 .our-services__title {
-  margin: 0 0 33px 0;
+  margin: 72px 0 33px 0;
   @include services-title-font($font-our-services-size);
 }
 
