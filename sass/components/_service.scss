@@ -1,4 +1,6 @@
-
+.all-services {
+  flex-grow: 2;
+}
 .service {
   width: $service-width;
 }
@@ -19,3 +21,4 @@
   font-family: "Lato", sans-serif;
   font-weight: $font-service-description-wight;
 }
+
