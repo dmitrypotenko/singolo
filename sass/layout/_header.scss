@@ -1,0 +1,30 @@
+.header {
+  background-color: $color-header;
+  padding: 34px 0 36px 0;
+}
+
+.logo {
+  text-transform: uppercase;
+  line-height: $font-header-line-height;
+  @include header-font(2.5rem)
+}
+
+.logo__asterisk_colored {
+  color: $color-asterisk;
+}
+
+.navigation {
+  text-transform: uppercase;
+  @include header-font(1.2rem)
+}
+
+
+.navigation li {
+  margin-left: 32px;
+  list-style-type: none;
+}
+
+.navigation li:hover {
+  color: $color-focus;
+  cursor: pointer;
+}
