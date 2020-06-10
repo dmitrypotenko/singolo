@@ -1,14 +1,13 @@
-
 @mixin header-font($font-size) {
   font-size: $font-size;
   color: #ffffff;
-  font-family: Lato, sans-serif;
+  font-family: $font-default;
   font-weight: 700;
 }
 
 @mixin services-title-font($font-size) {
   color: $color-our-services-title;
-  font-family: "Lato", sans-serif;
+  font-family: $font-default;
   line-height: $font-services-title-line-height;
   font-weight: $font-our-services-weight;
   font-size: $font-size;
