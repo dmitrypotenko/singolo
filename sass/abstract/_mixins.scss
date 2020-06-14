@@ -12,3 +12,21 @@
   font-weight: $font-our-services-weight;
   font-size: $font-size;
 }
+
+
+@mixin contact-us-font($font-size, $line-height, $font-weight) {
+  color: $color-contact-us;
+  line-height: $line-height;
+  font-family: $font-default;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+
+@mixin contact-us-placeholder-font {
+  color: #f48c8f;
+  line-height: 22px;
+  font-family: $font-default;
+  font-size: 12px;
+  font-weight: 400;
+}

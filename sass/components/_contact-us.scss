@@ -1,0 +1,16 @@
+.contact-us {
+  padding: 67px 0 67px 0;
+  background-color: $color-background-contact-us;
+
+  &__title {
+    @include contact-us-font(30px, 18px, 900);
+    margin-bottom: 29px;
+  }
+
+  &__description {
+    @include contact-us-font(18px, 30px, 300);
+    margin-bottom: 48px;
+  }
+
+}
+
