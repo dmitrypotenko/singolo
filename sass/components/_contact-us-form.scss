@@ -1,0 +1,40 @@
+.contact-us-form {
+  @extend .flex;
+  flex-grow: 2;
+
+  &__inputs {
+    flex-shrink: 0;
+    @extend .flex_column;
+    margin-right: 20px;
+    flex-basis: $contact-us-form-inputs-width;
+  }
+
+  &__input {
+    &::placeholder {
+      @include contact-us-placeholder-font;
+
+    }
+    padding-left: 12px;
+    border-style: none;
+    border-color: $color-background-contact-us;
+    flex-basis: $contact-us-form-input-height;
+    border-radius: 5px;
+    background-color: $color-contact-us-input;
+
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__textarea {
+    resize: none;
+    flex-grow: 2;
+    flex-basis: 202px;
+    :focus {
+      border-style: none;
+    }
+  }
+
+}

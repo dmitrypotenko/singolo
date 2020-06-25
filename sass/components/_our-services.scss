@@ -1,0 +1,20 @@
+
+.our-services {
+  background-color: $color-our-services;
+  padding: 68px 0 31px 0;
+  box-sizing: border-box;
+}
+
+.our-services__title {
+  margin: 0 0 33px 0;
+  @include services-title-font($font-our-services-size);
+}
+
+.our-services__description {
+  margin-bottom: 50px;
+  line-height: $font-our-services-desc-line-height;
+  font-size: $font-our-services-desc-size;
+  color: $color-our-desc-services;
+  font-family: $font-default;
+  font-weight: $font-our-services-desc-weight;
+}
